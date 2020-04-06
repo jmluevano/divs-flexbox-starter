@@ -97,15 +97,19 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #e7b2a5;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+p span {
+  font-weight: bolder;
 }
 
 .wrapper {
@@ -124,12 +128,18 @@ body {
   display: flex;
   justify-content:center;
   align-items: center;
-  background-color: #f16059;
   height: 300px;
 }
 
+.div-1 {
+  border-right: solid 3px #fff;
+  padding-right: 30px;
+}
 
-
+.div-3 {
+  border-left: solid 3px #fff;
+  padding-left: 30px;
+}
 
 /* ==========================================================================
    Helper classes
